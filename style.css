@@ -3,6 +3,10 @@ body {
     height: 900px;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .nav {
     margin: auto;
     width: 100%;
@@ -38,8 +42,6 @@ ul.nav li a:hover {
     color: white;
     background-color: black;
 }
-
-
 /*hamburger toggle*/
 
 .navbar-toggle .icon-bar:nth-of-type(2) {
@@ -77,14 +79,16 @@ ul.nav li a:hover {
     background-color: black;
     border-style: none;
 }
-
-
 /**/
 
 .greys {
     height: 800px;
     width: 100%;
     background-color: grey;
+}
+
+#about {
+    height: 900px;
 }
 
 .whites {
@@ -96,4 +100,23 @@ ul.nav li a:hover {
 .navigation {
     height: 70px;
     width: 100%;
+}
+
+.car {
+    width: 100%;
+    height: 800px;
+    background-color: gray;
+}
+
+#downarrow {
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    font-size: 2em;
+    left: 50%;
+}
+
+#downarrow a {
+    color: red;
 }
