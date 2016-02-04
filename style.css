@@ -50,6 +50,8 @@ ul.nav li a:hover {
     color: yellow;
     background-color: black;
 }
+
+
 /*hamburger toggle*/
 
 .navbar-toggle .icon-bar:nth-of-type(2) {
@@ -87,6 +89,8 @@ ul.nav li a:hover {
     background-color: black;
     border-style: none;
 }
+
+
 /**/
 
 .greys {
@@ -117,7 +121,7 @@ ul.nav li a:hover {
     width: 100%;
     position: absolute;
     left: 0px;
-    bottom: 0px;
+    bottom: 20px;
     margin-top: 20px;
 }
 
