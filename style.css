@@ -50,8 +50,6 @@ ul.nav li a:hover {
     color: yellow;
     background-color: black;
 }
-
-
 /*hamburger toggle*/
 
 .navbar-toggle .icon-bar:nth-of-type(2) {
@@ -89,8 +87,6 @@ ul.nav li a:hover {
     background-color: black;
     border-style: none;
 }
-
-
 /**/
 
 .greys {
@@ -115,6 +111,7 @@ ul.nav li a:hover {
     width: 100%;
     height: auto;
     background-color: whitesmoke;
+    padding: 0;
 }
 
 #arrowwrapper {
@@ -210,39 +207,6 @@ img {
     }
 }
 
-.carousel {
-    position: relative;    
-    top: 0;
-    margin: 0;
-}
-
-.carousel,
-.item,
-.active {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-}
-
-.carousel-inner {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-}
-
-.carousel-caption {
-    top: 0;
-    bottom: auto;
-}
-
-.imgdiv {
-    width: 100%;
-    height: 100%;
-    opacity: 0.7;
-    background-position: center;
-    background-size: cover;
-    background-image: url("Neumont.jpg");
-}
 .ceoPic {
     position: relative;
     min-width: 250px;
@@ -304,4 +268,6 @@ img {
     position: relative;
     top 15px;
     padding: 10px;
+=======
+>>>>>>> 24faf6ae749a59693fa0ba0af306664c3d6f54a0
 }
