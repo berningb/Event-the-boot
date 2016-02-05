@@ -50,8 +50,6 @@ ul.nav li a:hover {
     color: yellow;
     background-color: black;
 }
-
-
 /*hamburger toggle*/
 
 .navbar-toggle .icon-bar:nth-of-type(2) {
@@ -89,8 +87,6 @@ ul.nav li a:hover {
     background-color: black;
     border-style: none;
 }
-
-
 /**/
 
 .greys {
@@ -115,6 +111,7 @@ ul.nav li a:hover {
     width: 100%;
     height: auto;
     background-color: whitesmoke;
+    padding: 0;
 }
 
 #arrowwrapper {
@@ -207,10 +204,5 @@ img {
     }
     .navigation {
         background-color: transparent;
-    }
-    .carousel {
-        position: relative;
-        top: 0;
-        left: 0;
     }
 }
