@@ -22,8 +22,6 @@ body {
     opacity: 0.9;
 }
 
-.navbar-inverse {}
-
 ul.nav li {
     float: right;
     width: 115px;
@@ -119,7 +117,7 @@ ul.nav li a:hover {
     position: absolute;
     left: 0px;
     bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #downarrow {
@@ -146,8 +144,12 @@ ul.nav li a:hover {
 }
 
 .carousel-caption {
-    top: 0;
+    top: 100px;
     bottom: auto;
+    font-size: 3em;
+    color: yellow;
+    background: rgba(0, 0, 0, .5);
+    vertical-align: middle;
 }
 
 .carousel-inner img {
@@ -159,6 +161,7 @@ ul.nav li a:hover {
     line-height: 1;
     margin: auto;
     border: 0;
+    opacity: .85;
 }
 
 .carousel-control {
@@ -180,11 +183,26 @@ img {
     vertical-align: middle;
 }
 
+#logo {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.page-header {
+    text-align: center;
+}
+
+#map-canvas {
+    width: 100%;
+    height: 100%;
+    height: calc(100% - 0px);
+}
+
 @media screen and (max-width: 768px) {
     .navbar-collapse {
         background-color: black;
         border-style: none;
-        width: 200px;
+        width: 250px;
         top: 50px;
         right: 5px;
         position: absolute;
@@ -204,5 +222,14 @@ img {
     }
     .navigation {
         background-color: transparent;
+    }
+    ul.nav li a:hover {
+        color: yellow;
+        background-color: transparent;
+    }
+    #logo {
+        margin-bottom: 15px;
+        margin-left: 15px;
+        transform: rotate(-180deg);
     }
 }
