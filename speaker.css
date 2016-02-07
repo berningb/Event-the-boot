@@ -1,0 +1,71 @@
+.ceoPic {
+    position: relative;
+    min-width: 250px;
+    width: 85%;
+    max-width: 500px;
+    top: 10px;
+}
+
+.speaker {
+    height: auto;
+    min-height: 500px;
+    padding: 20px;
+    background-color: #2B2929;
+}
+
+.quote {
+    border-left: 10px solid #989898;
+    position: relative;
+    top: 15px;
+    color: #989898;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    display: table;
+}
+
+.quote > footer {
+    color: #D8CFC6;
+}
+
+.speakerName {
+    font-size: 42px;
+    margin: 0px;
+    padding: 0px;
+    height: 85px;
+    color: #D8CFC6;
+}
+
+.speakerName > small {
+    position: relative;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    color: #989898;
+    bottom: 15px;
+}
+
+.speakerPara {
+    position: relative;
+    color: #BAB0A5;
+    font-size: 16px;
+}
+
+.speakerTitle {
+    text-align: center;
+    color: #989898;
+    font-size: 48px;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+.speakerQuote {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.speakerInfo {
+    position: relative;
+    top 15px;
+    padding: 10px;
+}
