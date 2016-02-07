@@ -1,0 +1,94 @@
+.nav {
+    margin: auto;
+    width: 100%;
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+}
+
+ul.nav li {
+    float: right;
+    width: 115px;
+    text-align: left;
+}
+
+.navbar-fixed-top {
+    background-color: gray;
+    border: 0px;
+}
+
+ul.nav li a {
+    font-family: 'Lato', Tahoma, Geneva, sans-serif;
+    font-size: 13px;
+    font-weight: 700 !important;
+    line-height: 4;
+    text-align: center;
+    cursor: pointer;
+    left: 2px;
+    color: white;
+}
+
+ul.nav li a:hover {
+    color: yellow;
+    background-color: black;
+}
+/*hamburger toggle*/
+
+.navbar-toggle .icon-bar:nth-of-type(2) {
+    top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+    top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+    top: 6px;
+    transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+    background-color: black;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+    top: -6px;
+    transform: rotate(-45deg);
+}
+
+.navbar-toggle {
+    background-color: black;
+}
+
+.navbar-collapse {
+    background-color: black;
+    border-style: none;
+}
+
+.navigation {
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+}
+
+#logo {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+ul.nav li a:hover {
+    color: yellow;
+    background-color: transparent;
+}
