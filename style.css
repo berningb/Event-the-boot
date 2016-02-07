@@ -3,6 +3,25 @@ body {
     height: 900px;
 }
 
+ul {
+    float: left;
+    width: 60em;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    float: left;
+    width: 14em;
+    padding: 0;
+}
+
+.jumbotron {
+    height: 600px;
+    text-align: center;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -48,6 +67,8 @@ ul.nav li a:hover {
     color: yellow;
     background-color: black;
 }
+
+
 /*hamburger toggle*/
 
 .navbar-toggle .icon-bar:nth-of-type(2) {
@@ -85,6 +106,8 @@ ul.nav li a:hover {
     background-color: black;
     border-style: none;
 }
+
+
 /**/
 
 .greys {
@@ -223,6 +246,11 @@ img {
     .navigation {
         background-color: transparent;
     }
+    #logo {
+        margin-bottom: 15px;
+        margin-left: 15px;
+        transform: rotate(-180deg);
+    }
 }
 
 .ceoPic {
@@ -232,45 +260,52 @@ img {
     max-width: 500px;
     top: 10px;
 }
+
 .speaker {
-    height: auto; 
+    height: auto;
     min-height: 500px;
-    padding:20px;
+    padding: 20px;
     background-color: #2B2929;
 }
+
 .quote {
-    border-left: 10px solid #989898;  
+    border-left: 10px solid #989898;
     position: relative;
     top: 15px;
     color: #989898;
-    width:auto;
+    width: auto;
     margin: 0 auto;
     text-align: center;
     display: table;
 }
+
 .quote > footer {
-    color:#D8CFC6; 
+    color: #D8CFC6;
 }
+
 .speakerName {
-    font-size: 42px;   
+    font-size: 42px;
     margin: 0px;
     padding: 0px;
     height: 85px;
     color: #D8CFC6;
 }
+
 .speakerName > small {
     position: relative;
-    font-size: 20px; 
+    font-size: 20px;
     padding: 0px;
     margin: 0px;
     color: #989898;
     bottom: 15px;
 }
+
 .speakerPara {
     position: relative;
-    color: #BAB0A5;   
+    color: #BAB0A5;
     font-size: 16px;
 }
+
 .speakerTitle {
     text-align: center;
     color: #989898;
@@ -278,23 +313,28 @@ img {
     text-decoration: underline;
     padding-bottom: 20px;
 }
+
 .speakerQuote {
     position: relative;
     margin-bottom: 20px;
 }
+
 .speakerInfo {
     position: relative;
     top 15px;
     padding: 10px;
-=======
->>>>>>> 24faf6ae749a59693fa0ba0af306664c3d6f54a0
-    ul.nav li a:hover {
-        color: yellow;
-        background-color: transparent;
-    }
-    #logo {
-        margin-bottom: 15px;
-        margin-left: 15px;
-        transform: rotate(-180deg);
-    }
+}
+
+ul.nav li a:hover {
+    color: yellow;
+    background-color: transparent;
+}
+
+#logo {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.form-group {
+    width: 400px;
 }
