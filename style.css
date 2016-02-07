@@ -9,13 +9,13 @@ body {
 
 .greys {
     height: 800px;
-    width: 100%;
+    width: auto;
     background-color: grey;
 }
 
 .whites {
     height: 800px;
-    width: 100%;
+    width: auto;
     background-color: white;
 }
 
