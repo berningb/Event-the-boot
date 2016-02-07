@@ -1,0 +1,14 @@
+.aboutDiv {
+    height: auto;
+    padding: 15px;
+    position: relative;
+    background-color: #2b2929;
+}
+.aboutDiv h1 {
+    color: #dbcfc6;
+}
+.aboutPara {
+    position: relative;
+    max-width: 1000px;
+    text-align: center;
+}
