@@ -1,0 +1,9 @@
+#wrap li {
+    float: left;
+    list-style-type: none;
+    margin: auto;
+}
+
+#wrap {
+    margin: auto;
+}
