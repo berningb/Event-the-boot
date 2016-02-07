@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="people.css">
     <link rel="stylesheet" type="text/css" href="speaker.css">
     <link rel="stylesheet" type="text/css" href="smallscreen.css">
+    <link rel="stylesheet" type="text/css" href="rsvp.css">
+    <link rel="stylesheet" type="text/css" href="about.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -26,7 +28,7 @@
         </button>
 
         <ul class="nav navbar-collapse collapse">
-            <a href="#slideshow"><img src="NULogo.png" id="logo">
+            <a href="#slideshow" id='pageLogo'><img src="NULogo.png" id="logo">
             </a>
 
             <li><a href="#rsvp">RSVP</a><span></span>
@@ -59,7 +61,9 @@
                     <div class="imgdiv">
                         <img src="Neumont.png" width="1200" height="700">
                         <div class="carousel-caption">
-                            <h3>Neumont University Commencement 2016</h3>
+                            <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+
+                            <p id="slidetext">Neumont University Commencement 2016</p>
                         </div>
                     </div>
                 </div>
@@ -68,9 +72,10 @@
                         <img src="Neumont.png" width="1200" height="700">
 
                         <div class="carousel-caption">
-                            <h3>The Ceremony will be held at:<br> Salt Lake Masonic Temple <br>
-650 East South Temple<br>
-Salt Lake City, UT  </h3>
+                            <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+                            <p id="slidetext">The Ceremony will be held at:
+                                <br> Salt Lake Masonic Temple
+                                <br> <a id="pagelink" href="#location">Get Directions</a>
                         </div>
                     </div>
                 </div>
@@ -79,7 +84,7 @@ Salt Lake City, UT  </h3>
                         <img src="Neumont.png" width="1200" height="700">
 
                         <div class="carousel-caption">
-                            <h3>Caption Text</h3>
+                            <p id="slidetext"><a href="#rsvp" id="pagelink">RSVP</a> Now</p>
                         </div>
                     </div>
                 </div>
@@ -103,9 +108,12 @@ Salt Lake City, UT  </h3>
     </div>
 
     <!--about-->
-    <div class="container greys" id="about">
+    <div class="container greys aboutDiv" id="about">
         <div class="page-header">
             <h1>About</h1>
+        </div>
+        <div class="jumbotron aboutPara center-block">
+            <p>Come help us celebrate the graduation of cohort 29 and some students from cohort 28. They are finally graduating after a long two and a half years or more of studying and working hard. We will be watching them graduate at the Salt Lake Masonic Temple on Saturday March 26, at 1:00 PM. If you are interested in joining us then you can rsvp down below.</p>
         </div>
     </div>
 
@@ -204,7 +212,7 @@ Salt Lake City, UT  </h3>
     <div class="container greys speaker" id="speaker">
         <div class="row">
             <div class="col-sm-12">
-                <h1 class="speakerTitle">Speaker</h1>
+                <h1 class="speakerTitle page-header">Speaker</h1>
             </div>
         </div>
         <div class="row">
@@ -218,7 +226,7 @@ Salt Lake City, UT  </h3>
                 <h1 class="speakerName">Larry Page<br><small>CEO of Alphabet</small></h1>
                 <p class="speakerPara">Lawrence "Larry" Page (born March 26, 1973) is an American computer scientist and internet entrepreneur who co-founded Google Inc. with Sergey Brin, and is the CEO of Google's parent company, Alphabet Inc. He announced his intention to step aside a second time in July 2015 to become CEO of Alphabet, under which Google's assets would be reorganized. Under Page, Alphabet is seeking to deliver major advancements in a variety of industries. Page is the inventor of PageRank, Google's best-known search ranking algorithm.</p>
 
-                <p class="speakerPara">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet interdum elit. Mauris mattis nisi nec justo convallis, sed blandit nisi tincidunt. In hendrerit orci eget vulputate lobortis. Phasellus fermentum posuere ante vestibulum tempor. Nunc at porttitor diam. Integer tristique libero vitae ligula tincidunt facilisis. Sed consectetur pharetra lacus, non iaculis turpis fringilla quis. In auctor auctor felis a fringilla. Sed semper neque sit amet velit finibus vehicula.</p>
+                <p class="speakerPara">Google has been a very important company in terms of advancing technology, and we're estatic to have someone like Larry to come talk to our graduates. We have had a couple Neumont students go and work for Google including some of our current graduates. It will be very exciting to see what these graduates will create and innovate in the future. Larry will be talking about the importance of having dreams and being able to work on them.</p>
 
             </div>
             <div class="col-sm-1"></div>
@@ -231,7 +239,6 @@ Salt Lake City, UT  </h3>
         <div class="page-header">
             <h1>Location</h1>
         </div>
-
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.6878562770326!2d-111.87450228432863!3d40.76888964206971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f57106fe2b01%3A0x729833752954793d!2sSalt+Lake+Masonic+Temple%2C+650+S+Temple%2C+Salt+Lake+City%2C+UT+84102!5e0!3m2!1sen!2sus!4v1454875374854" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
 
@@ -240,26 +247,46 @@ Salt Lake City, UT  </h3>
     <div class="container greys" id="rsvp">
         <div class="page-header">RSVP</div>
         <div class="container">
-            <h2>RSVP Form</h2>
+            <h2 class="rsvpTitle">RSVP Form</h2>
             <form role="form">
-                <div class="form-group">
-                    <label for="email">First Name:</label>
-                    <input type="text" class="form-control" id="email" placeholder="Name">
-                    <label for="email">Last Name:</label>
-                    <input type="text" class="form-control" id="email" placeholder="Name">
-                </div>
-
-                <div class="form-group">
-
+                <div class="form-group center-block">
+                    <label for="email" class="nameLabel">First Name:</label>
+                    <input type="text" class="form-control" id="email" placeholder="First name">
+                    <label for="email" class="nameLabel">Last Name:</label>
+                    <input type="text" class="form-control" id="email" placeholder="Last name">
+                    <label for="email" class="nameLabel">Email address:</label>
+                    <input type="text" class="form-control" id="email" placeholder='Email'>
+                    <br>
                     <button type="submit" class="btn btn-default">Submit</button>
-
                 </div>
-
             </form>
 
+        </div>
 
+        <div id="footer" class="jumbotron">
+            <div id="contactinfo">
+                <p> NEUMONT UNIVERSITY. ALL RIGHTS RESERVED.
+                    <br> 143 SOUTH MAIN STREET, SALT LAKE CITY, UTAH
+                    <br>84111 1-888-NEUMONT (1-888-638-6668)</p>
+            </div>
+        </div>
+        <div id="sociallinks">
+            <div class="social">
+                <img src="fb.png" width="60" height="60">
+            </div>
+            <div class="social">
+                <img src="Tw.png" width="60" height="60">
+            </div>
+            <div class="social">
+                <img src="insta.png" width="60" height="60">
+            </div>
+            <div class="social">
+                <img src="linkd.png" width="60" height="60">
+
+            </div>
         </div>
     </div>
+
 
 
 
