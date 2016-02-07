@@ -73,3 +73,17 @@
 img {
     vertical-align: middle;
 }
+
+#slidetext {
+    font-size: .7em;
+}
+
+#pagelink {
+    color: yellow;
+    text-decoration: underline;
+}
+
+#pagelink:hover {
+    color: white;
+    text-decoration: none;
+}
