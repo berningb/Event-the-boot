@@ -11,12 +11,14 @@ body {
     height: auto;
     width: auto;
     background-color: grey;
+    padding-bottom: 20px;
 }
 
 .whites {
-    height: 800px;
+    height: auto;
     width: auto;
     background-color: grey;
+    padding-bottom: 20px;
 }
 
 .page-header {
