@@ -8,6 +8,7 @@ $(".hover").on("click", function () {
     $('#tobeshown').css({
         'top': mouseY,
         'left': mouseX,
+        'visibility': "visible",
     }).fadeIn("fast");
 });
 
