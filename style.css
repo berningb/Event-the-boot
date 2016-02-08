@@ -87,3 +87,7 @@ iframe {
     width: 4em;
     height: 4em;
 }
+
+#tobeshown {
+    position: absolute;
+}
