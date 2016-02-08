@@ -31,7 +31,7 @@
     #wrap {
         margin: auto;
         margin-top: 80px;
-        width: 600px;
+        width: auto;
     }
     .carousel-caption {
         bottom: auto;

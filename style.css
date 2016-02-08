@@ -16,7 +16,7 @@ body {
 .whites {
     height: 800px;
     width: auto;
-    background-color: white;
+    background-color: grey;
 }
 
 .page-header {
@@ -86,8 +86,4 @@ iframe {
 .social img:hover {
     width: 4em;
     height: 4em;
-}
-
-#tobeshown {
-    position: absolute;
 }

@@ -4,11 +4,23 @@
 }
 
 #wrap {
+    padding-right: 60px;
     margin: auto;
     margin-top: 100px;
-    width: 1500px;
+    width: auto;
+    color: yellow;
 }
 
 .spacer {
     height: 60px;
+}
+
+#tobeshown {
+    position: absolute;
+    color: black;
+    height: auto;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20%;
 }
