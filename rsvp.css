@@ -1,12 +1,52 @@
 #rsvp {
     background-color: #2b2929;
 }
+
 .rsvpTitle {
     color: #D8CFC6;
     position: relative;
     text-align: center;
-    
+    margin: 0px;
 }
+
 .nameLabel {
-    color: #BAB0A5;   
+    color: #BAB0A5;
+}
+
+#contactinfo p {
+    text-align: left;
+    font-size: 18px;
+    color: #D8CFC6;
+}
+
+#sociallinks {
+    margin-bottom: 25px;
+}
+
+.social {
+    font-size: 1.4em;
+    color: black;
+    border-radius: 100%;
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    float: left;
+}
+
+.social:hover {
+    width: 4em;
+    height: 4em;
+    margin-bottom: 10px;
+}
+
+.social img:hover {
+    width: 4em;
+    height: 4em;
+}
+
+#contactform .btn:hover {
+    background: rgba(9, 8, 77, 0.7);
 }

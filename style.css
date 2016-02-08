@@ -8,7 +8,7 @@ body {
 }
 
 .greys {
-    height: 800px;
+    height: auto;
     width: auto;
     background-color: grey;
 }
@@ -29,7 +29,7 @@ body {
     height: calc(100% - 0px);
 }
 
-.form-group {
+<<<<<<< HEAD .form-group {
     width: 400px;
 }
 

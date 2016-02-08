@@ -40,11 +40,4 @@
         background: rgba(0, 0, 0, .5);
         vertical-align: middle;
     }
-    .carousel-caption {
-        bottom: auto;
-        font-size: 10px;
-        color: yellow;
-        background: rgba(0, 0, 0, .5);
-        vertical-align: middle;
-    }
 }
