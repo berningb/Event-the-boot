@@ -1,8 +1,8 @@
 var mouseX;
 var mouseY;
 $(document).mousemove(function (e) {
-    mouseX = e.pageX;
-    mouseY = e.pageY - 300;
+    mouseX = e.pageX - 140;
+    mouseY = e.pageY - 290;
 });
 $(".hover").on("click", function () {
     $('#tobeshown').css({

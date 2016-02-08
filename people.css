@@ -1,10 +1,15 @@
 #wrap li {
     text-align: center;
     list-style-type: none;
+    cursor: pointer;
+}
+
+#wrap li:hover {
+    color: red;
 }
 
 #wrap {
-    padding-right: 60px;
+    padding-right: 40px;
     margin: auto;
     margin-top: 100px;
     width: auto;
@@ -21,6 +26,22 @@
     height: auto;
     width: 300px;
     text-align: center;
-    padding: 10px;
     border-radius: 20%;
+}
+
+.float {
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.float:hover {
+    font-size: 1.5em;
+    -webkit-transform: translate(0px, -10px);
+    -moz-transform: translate(0px, -10px);
+    -ms-transform: translate(0px, -10px);
+    -o-transform: translate(0px, -10px);
+    transform: translate(0px, -10px);
 }
