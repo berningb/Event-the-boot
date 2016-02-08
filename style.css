@@ -29,11 +29,6 @@ body {
     height: calc(100% - 0px);
 }
 
-iframe {
-    float: right;
-    margin-right: 50px;
-}
-
 #tobeshown {
     position: absolute;
 }

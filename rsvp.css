@@ -19,6 +19,10 @@
     color: #D8CFC6;
 }
 
+#sociallinks {
+    margin-bottom: 25px;
+}
+
 .social {
     font-size: 1.4em;
     color: black;
@@ -30,12 +34,12 @@
     justify-content: center;
     background-color: yellow;
     float: left;
-    margin-bottom: 10px;
 }
 
 .social:hover {
     width: 4em;
     height: 4em;
+    margin-bottom: 10px;
 }
 
 .social img:hover {
