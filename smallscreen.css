@@ -28,11 +28,13 @@
         margin-left: 15px;
         transform: rotate(-180deg);
     }
+/*
     #wrap {
-        margin: auto;
-        margin-top: 80px;
-        width: auto;
-    }
+    margin: auto;
+    margin-top: 80px;
+    width: auto;
+}
+*/
     .carousel-caption {
         bottom: auto;
         font-size: 10px;
