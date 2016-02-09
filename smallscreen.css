@@ -61,4 +61,11 @@
         font-size: 1.2em;
         text-align: center;
     }
+    #contactinfo {
+        margin: auto;
+    }
+    #getit {
+        margin: auto;
+        width: 400px;
+    }
 }

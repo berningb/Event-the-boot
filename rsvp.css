@@ -53,3 +53,8 @@
 #contactform .btn:hover {
     background: rgba(9, 8, 77, 0.7);
 }
+
+#getit {
+    margin: auto;
+    width: 400px;
+}
