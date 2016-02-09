@@ -30,6 +30,12 @@
     border-radius: 20%;
 }
 
+#text {
+    background-color: rgb(255, 255, 255);
+    border: solid 2px black;
+    border-radius: 6px;
+}
+
 .float {
     -webkit-transition: all .3s ease-out;
     -moz-transition: all .3s ease-out;

@@ -28,16 +28,19 @@
         margin-left: 15px;
         transform: rotate(-180deg);
     }
-/*
+    /*
     #wrap {
     margin: auto;
     margin-top: 80px;
     width: auto;
 }
 */
+    
+    #arrowwrapper {
+        visibility: hidden;
+    }
     .carousel-caption {
-        bottom: auto;
-        font-size: 10px;
+        font-size: 20px;
         color: yellow;
         background: rgba(0, 0, 0, .5);
         vertical-align: middle;
