@@ -1,0 +1,13 @@
+#location {
+    text-align: center;
+}
+
+#map {
+    padding-bottom: 20px;
+}
+
+#loctext {
+    font-size: 1.5em;
+    margin: auto;
+    text-align: left;
+}
