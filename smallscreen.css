@@ -43,18 +43,4 @@
         background: rgba(0, 0, 0, .5);
         vertical-align: middle;
     }
-    #contactinfo p {
-        width: auto;
-        text-align: left;
-        font-size: 18px;
-        color: #D8CFC6;
-        margin-top: 60px;
-        margin-left: 0;
-        height: 100px;
-    }
-    #sociallinks {
-        margin-bottom: 25px;
-        width: auto;
-        margin-left: 0%;
-    }
 }
