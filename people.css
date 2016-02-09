@@ -5,7 +5,7 @@
 }
 
 #wrap li:hover {
-    color: red;
+    color: yellow;
 }
 
 #wrap {
@@ -13,7 +13,7 @@
     margin: auto;
     margin-top: 100px;
     width: auto;
-    color: yellow;
+    color: black;
 }
 
 .spacer {
@@ -34,6 +34,8 @@
     background-color: rgb(255, 255, 255);
     border: solid 2px black;
     border-radius: 6px;
+    padding: 10px;
+    font-style: italic;
 }
 
 .float {
@@ -51,4 +53,9 @@
     -ms-transform: translate(0px, -10px);
     -o-transform: translate(0px, -10px);
     transform: translate(0px, -10px);
+}
+
+#name {
+    font-style: normal;
+    border-bottom: 1px solid black;
 }
